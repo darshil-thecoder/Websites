@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page</title>
+    <link rel="stylesheet" href="simplewebsite.css">
+
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="navbar">
+            <div class="icon">
+                <div class="logo">
+                    <h2>Learn&Lead</h2>
+                </div>
+
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICE</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">DESIGN</a></li>
+                </ul>
+            </div>
+
+            <div class="search">
+                <input id="srch" class="srch" type="search" placeholder="type the text">
+                <button class="btn" id="btn">Search</button>
+            </div>
+        </div>
+
+        <div class="content">
+            <h1 class="h1" id="h1">Web Design & <br><span>Development</span><br>Courses</h1>
+            <p class="par" id="par"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum consectetur
+                voluptatum optio, ea sequi minima adipisci officiis dicta, reprehenderit eligendi doloribus ab omnis
+                temporibus praesentium quam! Suscipit ratione ullam voluptatibus.</p>
+            <a href="#"><button class="contbtn">JOIN US</button></a>
+
+
+            <div class="form">
+                <h2 class="h2">Login Here</h2>
+                <input type="email" placeholder=" Enter Email" name="email" class="email">
+                <input type="password" placeholder="Enter Password" class="pass" id="pass">
+                <button class="formbtn"><a href="#">Login</a></button>
+
+                <p class="formpar">Don't have an account <br>
+                <a href="#">Sign Upe</a> here</p>
+                <p class="loginwith">Login with </p>
+
+                <div class="icons">
+                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+</html>
