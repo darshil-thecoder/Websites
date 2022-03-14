@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DropDown Website</title>
+    <link rel="stylesheet" href="dropdown.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="navbar">
+            <ul>
+                <li><a href="#"><i class="fa-solid fa-house"></i> HOME</a></li>
+                <li><a href="#"><i class="fa-solid fa-user"></i> ABOUT US</a>
+                    <div class="sub_menu0">
+                        <ul>
+                            <li>Mission</li>
+                            <li>Vision</li>
+                            <li>Team</li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#"><i class="fa-solid fa-phone"></i> CONTACT</a></li>
+                <li><a href="#"><i class="fa-solid fa-clone"></i> SERVICE</a>
+
+                    <div class="sub_menu1">
+                        <ul>
+                            <li class="hover_me">Web designing<i class="fa-solid fa-angle-right"></i>
+                                <div class="sub_menu2">
+                                    <ul>
+                                        <li><a href="#">Front-end</a></li>
+                                        <li><a href="#">APIs</a></li>
+                                        <li><a href="#">Back-end</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="hover_me">Marketing <i class="fa-solid fa-angle-right"></i> <!--here fa-angle-right is the class name-->
+                                <div class="sub_menu2">
+                                    <ul>
+                                        <li><a href="#">SEO</a></li>
+                                        <li><a href="#">Social Media</a></li>
+                                        <li><a href="#">Email Marketing</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="hover_me">Mobile App<i class="fa-solid fa-angle-right"></i>
+                                <div class="sub_menu2">
+                                    <ul>
+                                        <li><a href="#">Android App</a></li>
+                                        <li><a href="#">Ios App</a></li>
+                                        <li><a href="#">Windows App</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#"><i class="fa-solid fa-person"></i> CLIENTS</a></li>
+                <li><a href="#"><i class="fa-solid fa-edit"></i> TRAINING</a></li>
+                <li><a href="#"><i class="fa-solid fa-angellist"></i> INVESTORS</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
